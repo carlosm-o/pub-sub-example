@@ -1,0 +1,16 @@
+{
+  "name": "servicebus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "publisher": "node --env-file=.env publisher.js",
+    "subscriber": "node --env-file=.env subscriber.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/service-bus": "^7.9.3",
+    "express": "^4.18.2"
+  }
+}
