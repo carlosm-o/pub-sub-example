@@ -25,6 +25,8 @@ Before running the publisher and subscriber, make sure to create a topic and sub
 
 Make sure to keep both terminals open in order to send and receive messages between the publisher and subscriber.
 
+- Use Postman to send a json object in the body of the request to the publisher.
+
 ## Microsoft Topic Tutorial
 
 For more information on how to use topics in Azure Service Bus, you can refer to the [Microsoft Topic Tutorial](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-nodejs-how-to-use-topics-subscriptions?tabs=passwordless).
