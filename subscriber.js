@@ -38,9 +38,9 @@ class ServiceBusListener {
 }
 
 // Usage
-const connectionString = process.env.SB_CONNECTION_STRING;
-const topicName = process.env.TOPIC_NAME;
-const subscriptionName = process.env.SUBSCRIPTION_NAME;
+const connectionString = process.env.SERVICE_BUS_CONNECTION_STRING;
+const topicName = "your.topic.name";
+const subscriptionName = "YourSubscriptionName";
 
 const listener = new ServiceBusListener(connectionString, topicName, subscriptionName);
 
